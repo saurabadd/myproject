@@ -1,0 +1,43 @@
+<script>
+	function sendvalue(val){
+		var inpval = document.getElementById('input-val').value
+		var inp = document.getElementById('input-val')
+		inp.value = inpval+val
+	}
+
+	function reset(){
+		var inp = document.getElementById('input-val')
+		inp.value = 0
+	}
+
+	function calculate(){
+		var inpval = document.getElementById('input-val').value
+		var inp = document.getElementById('input-val')
+		inp.value = eval(inpval)
+	}
+</script>
+<div class="calculator">
+	<div class="input"><input type="text" id="input-val"></div>
+	<div class="numbers">
+		<button onclick="sendvalue(0)">0</button>
+		<button onclick="sendvalue(1)">1</button>
+		<button onclick="sendvalue(2)">2</button>
+		<button onclick="sendvalue(3)">3</button>
+		<button onclick="sendvalue(4)">4</button>
+		<button onclick="sendvalue(5)">5</button>
+		<button onclick="sendvalue(6)">6</button>
+		<button onclick="sendvalue(7)">7</button>
+		<button onclick="sendvalue(8)">8</button>
+		<button onclick="sendvalue(9)">9</button>
+	</div>
+	<div class="operations">
+		<button onclick="sendvalue('+')">+</button>
+		<button onclick="sendvalue('-')">-</button>
+		<button onclick="sendvalue('*')">*</button>
+		<button onclick="sendvalue('/')">/</button>
+	</div>
+	<div class="calculate">
+		<button onclick="calculate()">=</button>
+		<button onclick="reset()">reset</button>
+	</div>
+</div>

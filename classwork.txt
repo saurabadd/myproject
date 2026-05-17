@@ -1,0 +1,40 @@
+Question 1 -
+Create a file named about-me.html with proper HTML structure. Inside the <body>, include a detail explanation about yourself using:
+
+- all heading tags
+- necessary paragraphs
+- style the contents as beautiful as you can
+
+
+Question 2 -
+Create a file named portfolio.html and include:
+
+- An image (use any image) with width 500px
+- A numbered list (ordered list) of your top 5 favorite subjects
+- An unordered list with bullets containing 4 programming languages you want to learn
+- A hyperlink that says "Visit Google" and opens https://google.com in a new tab
+- A table with borders showing your study:
+Subject | Marks | Grade
+(Include at least 5 subjects)
+
+<img src="path" width="500" alt="picture of camera">
+
+Question 3 –
+Create a file named registration.html with:
+
+- Form heading "Student Registration Form"
+- Text input for Name, Email, Phone
+- Dropdown (select) for choosing Class (options: 9, 10, 11, 12)
+- Radio buttons for Gender (Male / Female / Other)
+- Checkboxes for selecting Subjects interested in (at least 4 options)
+- A submit button
+- A short motivational video or audio (use any free online source or placeholder)
+
+
+Question 4 -
+Create a file named card.html and an internal CSS style that creates a beautiful student ID card with the following:
+
+→ A circular profile photo (150×150px, use any image)
+→ Name in large bold red font
+→ Roll number, class, and section in a smaller font
+→ Background of the whole card should be light gray

@@ -1,0 +1,36 @@
+<form onsubmit="return formValidation()">
+    <div class="form-wrap">
+      <label for="fullname">Fullname</label>
+      <input type="text" name="fullname" id="fullname" placeholder="Enter your name">
+    </div>
+    
+    <div class="form-wrap">
+      <label for="age">Age</label>
+      <input type="number" id="age" name="age">
+    </div>
+
+    <div class="form-wrap">
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password">
+    </div>
+    
+    <div class="form-wrap">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="emailaddress">
+    </div>
+
+    <div>
+      <input type="submit" name="submit" value="Submit">
+    </div>
+</form>
+
+<script type="text/javascript">
+  function formValidation(){
+    var fullname = document.getElementById('fullname').value;
+    if(fullname==''){
+      alert('Please fill fullname')
+      return false;
+    }
+    return true
+  }
+</script>
